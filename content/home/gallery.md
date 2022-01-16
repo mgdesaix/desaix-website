@@ -17,4 +17,4 @@ design:
   columns: '2'
 ---
 
-{{< gallery album="themes" >}}
+{{< gallery album="homepage" >}}

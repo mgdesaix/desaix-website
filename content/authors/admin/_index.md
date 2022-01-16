@@ -1,5 +1,5 @@
 ---
-bio: I like birds.
+bio:
 education:
   courses:
   - course: PhD in Biology
@@ -11,7 +11,7 @@ education:
   - course: BSc in Environmental Studies
     institution: Warren Wilson College
     year: 2012
-email: "mgdesaix[at]gmail.com"
+email: "mgdesaix@gmail.com"
 highlight_name: true
 interests:
 - Conservation genomics
@@ -44,6 +44,5 @@ superuser: true
 title: Matt DeSaix
 ---
 
-Hello, world
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
