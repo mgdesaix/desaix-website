@@ -18,8 +18,10 @@ interests:
 - Bioinformatics
 - Data visualization
 - Machine learning
-- Reproducible research
 - R development
+- Mountaineering/climbing
+- Skiing
+- Birding
 organizations:
 - name: Ruegg Lab
   url: https://sites.google.com/rams.colostate.edu/ruegglab/home
