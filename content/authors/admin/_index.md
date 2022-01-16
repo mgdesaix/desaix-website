@@ -42,7 +42,6 @@ social:
   link: https://github.com/mgdesaix
 superuser: true
 title: Matt DeSaix
+# {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
