@@ -33,7 +33,7 @@ enableEmoji = true
   description = "My site."
   favicon = "/img/BCRF-male-drawing.png"
   logo = "/img/BCRF-male-drawing.png"
-  mainSections = ["about", "project", "contact"]
+  mainSections = ["project"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -94,8 +94,8 @@ enableEmoji = true
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0002-5721-0311"
   [[params.social]]
-      icon      = "graduation-cap"
-      icon_pack = "fas"
+      icon      = "google-scholar"
+      icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=07ks02sAAAAJ&hl=en"
       
 [taxonomies]
@@ -120,11 +120,6 @@ enableEmoji = true
     title = "Contact me"
     url = "/contact/"
     weight = 3
-  [[menu.header]]
-    name = "Slider"
-    title = "Testing the slider"
-    url = "/test/"
-    weight = 4
     
   # Configure footer  
   [[menu.footer]]

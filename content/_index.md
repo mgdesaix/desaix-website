@@ -1,6 +1,6 @@
 ---
 title: "Matt DeSaix"
-subtitle: "PhD candidate & data scientist"
+subtitle: "Population genomicist, data scientist & climber"
 description: "I am a ..."
 images:
   - img/home.jpg

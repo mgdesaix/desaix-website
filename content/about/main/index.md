@@ -7,7 +7,7 @@ number_categories: 5 # set to zero to exclude
 show_intro: true
 intro: |
   Currently ...
-show_outro: true
+show_outro: false
 outro: |
   <i class="fas fa-kiwi-bird pr2"></i>Thank you for visiting!
 ---
