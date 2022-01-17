@@ -1,10 +1,7 @@
 ---
-title: "Testing the slider"
-description:
-show_header: true
-sidebar_left: false
-cascade:
-  headless: true
-type: slider
-layout: slider
+# Homepage
+type: widget_page
+
+# Homepage is headless, other widget pages are not.
+headless: true
 ---
