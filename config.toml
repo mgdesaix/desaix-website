@@ -31,7 +31,7 @@ enableEmoji = true
   orgName = "RStudio"
   orgLocal = "Anywhere"
   description = "My site."
-  favicon = "/img/favicon.ico"
+  favicon = "/img/BCRF-male-drawing.png"
   logo = "/img/BCRF-male-drawing.png"
   mainSections = ["about", "project", "contact"]
   navallcaps = true
@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/BCRF-male-drawing.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   # twitter = "apreshill"
   
@@ -120,6 +120,11 @@ enableEmoji = true
     title = "Contact me"
     url = "/contact/"
     weight = 3
+  [[menu.header]]
+    name = "Slider"
+    title = "Testing the slider"
+    url = "/test/"
+    weight = 4
     
   # Configure footer  
   [[menu.footer]]
