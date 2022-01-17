@@ -16,6 +16,16 @@ item:
     overlay_img: albums/homepage/flattop.jpg
   - title:
     overlay_img: albums/homepage/mother-rap.jpg
+  - title:
+    overlay_img: albums/homepage/birding-lake.jpg
+  - title:
+    overlay_img: albums/homepage/caroni-boat.jpg
+  - title:
+    overlay_img: albums/homepage/amre.jpg
+  - title:
+    overlay_img: albums/homepage/neversummers.jpg
+  - title:
+    overlay_img: albums/homepage/caroni-birds.jpg
 ---
 
 {{< gallery album="homepage" >}}

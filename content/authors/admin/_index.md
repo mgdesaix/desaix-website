@@ -8,7 +8,7 @@ education:
   - course: MS in Environmental Studies
     institution: Virginia Commonwealth University
     year: 2018
-  - course: BSc in Environmental Studies
+  - course: BS in Environmental Studies
     institution: Warren Wilson College
     year: 2012
 email: "mgdesaix@gmail.com"
