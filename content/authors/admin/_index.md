@@ -5,7 +5,13 @@ education:
   - course: PhD in Biology
     institution: Colorado State University
     year: Current
+  - course: Graduate certificate in Data Analysis
+    institution: Colorado State University
+    year: 2021
   - course: MS in Environmental Studies
+    institution: Virginia Commonwealth University
+    year: 2018
+  - course: Graduate certificate in Geographic Information Systems
     institution: Virginia Commonwealth University
     year: 2018
   - course: BS in Environmental Studies
@@ -27,7 +33,7 @@ organizations:
   url: https://sites.google.com/rams.colostate.edu/ruegglab/home
 - name: Bird Genoscape Project
   url: https://www.ioes.ucla.edu/project/bird-genoscape-project/
-role: PhD student
+role: PhD candidate
 social:
 - icon: envelope
   icon_pack: fas

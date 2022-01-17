@@ -10,9 +10,9 @@ main:
   # - name: Posts
   #   url: '#posts'
   #   weight: 20
-  # - name: Projects
-  #   url: '#projects'
-  #   weight: 30
+  - name: Projects
+    url: 'project/'
+    weight: 30
   # - name: Talks
   #   url: '#talks'
   #   weight: 40
@@ -20,7 +20,7 @@ main:
   #   url: '#featured'
   #   weight: 50
   # - name: Courses
-  #   url: courses/
+  #   url: course/
   #   weight: 60
   - name: Contact
     url: 'contact/'

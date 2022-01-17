@@ -1,10 +1,10 @@
-theme: "starter-hugo-academic"
+theme: "hugo-apero"
 # Configuration of Hugo
 # Guide: https://wowchemy.com/docs/getting-started/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Matt DeSaix # Website name
+title: "Matt DeSaix" # Website name
 baseurl: 'https://mgdesaix.netlify.app/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
@@ -17,14 +17,19 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+## markup
+
+markup:
+  defaultMarkdownHandler: goldmark
+
 ############################
 ## MODULES
 ############################
 
-module:
-  imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+# module:
+#   imports:
+#     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+#     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
 ############################
 ## ADVANCED
