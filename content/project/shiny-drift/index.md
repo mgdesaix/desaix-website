@@ -15,9 +15,14 @@ links:
   icon_pack: fas
   name: Shiny App
   url: https://mgdesaix.shinyapps.io/geneticdrift/
-tags:
+categories:
 - shiny
-- genetic drift
+- teaching
+tags:
+- rmarkdown
+- R
+- shiny
+- teaching
 ---
 
 ![Genetic drift](featured.jpg)
