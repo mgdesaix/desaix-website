@@ -10,6 +10,8 @@ link_list:
   url: https://sites.google.com/rams.colostate.edu/ruegglab/home
 - name: "Bird Genoscape Project"
   url: https://www.birdgenoscape.org/
+- name: "Colorado Mountain Club"
+  url: https://cmc.org/
 ---
 
 ** index doesn't contain a body, just front matter above.
