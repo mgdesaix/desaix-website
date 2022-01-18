@@ -1,7 +1,6 @@
 ---
 title: "About me"
-description: |
-  About Matt DeSaix
+description: More about me
 show_header: true
 sidebar_left: false
 cascade:

@@ -2,7 +2,7 @@
 ## Configure header of page
 text_align_right: false
 show_title_as_headline: false
-headline: Matt DeSaix
+headline: More about me
 ---
 ![Climbing in Vedauwoo](/img/mother-rap.jpg)
 
@@ -15,7 +15,7 @@ Colorado State University  &#8729;  Current
 <i class="fas fa-certificate pr2"></i>[Certificate in Data Analysis](https://statistics.colostate.edu/graduate-certificate-in-data-analysis/)  &#8729;  Colorado State University  &#8729;  2021
 
 <i class="fas fa-graduation-cap pr2"></i>M.S. in Environmental Studies  &#8729;
-University of Minnesota  &#8729;  2018
+Virginia Commonwealth University  &#8729;  2018
 
 <i class="fas fa-certificate pr2"></i>[Certificate in Geographic Information Systems](http://bulletin.vcu.edu/graduate/school-government-public-affairs/geographic-information-systems-certificate/)  &#8729;  Virginia Commonwealth University  &#8729;  2018
 
