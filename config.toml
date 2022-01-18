@@ -97,6 +97,14 @@ enableEmoji = true
       icon      = "google-scholar"
       icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=07ks02sAAAAJ&hl=en"
+  [[params.social]]
+      icon      = "crow"
+      icon_pack = "fas"
+      url       = "https://ebird.org/profile/NTUzNTc4/world"
+  [[params.social]]
+      icon      = "mountain"
+      icon_pack = "fas"
+      url       = "https://www.mountainproject.com/user/200659901/matt-desaix"
       
 [taxonomies]
   category = "categories"
