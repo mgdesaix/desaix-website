@@ -1,0 +1,3 @@
+https://mgdesaix.netlify.app/* https://mgdesaix.rbind.io/:splat  301!
+http://mgdesaix.netlify.app/* https://mgdesaix.rbind.io/:splat  301!
+http://mgdesaix.rbind.io/* https://mgdesaix.rbind.io/:splat  301!
