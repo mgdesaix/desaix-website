@@ -1,0 +1,32 @@
+---
+aliases: [sgd-shiny]
+title: Stochastic gradient descent (SGD) in R
+summary: Visualizing how SGD works with Shiny
+date: 2022-01-16
+image:
+  caption: 'Linear regression SGD'
+  focal_point: Smart
+links:
+- icon: github
+  icon_pack: fab
+  name: GitHub Org
+  url: https://github.com/mgdesaix/gradientDescent
+- icon: flask
+  icon_pack: fas
+  name: Shiny App
+  url: https://mgdesaix.shinyapps.io/gradientdescent/
+categories:
+- Shiny
+- machine learning
+- teaching
+tags:
+- Rmarkdown
+- R
+- Shiny
+- teaching
+---
+
+![Linear regression SGD](featured.jpg)
+
+
+See the links at the top of the page for accessing code and the app.

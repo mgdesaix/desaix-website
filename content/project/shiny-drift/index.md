@@ -16,12 +16,13 @@ links:
   name: Shiny App
   url: https://mgdesaix.shinyapps.io/geneticdrift/
 categories:
-- shiny
+- Shiny
 - teaching
+- population genetics
 tags:
-- rmarkdown
+- Rmarkdown
 - R
-- shiny
+- Shiny
 - teaching
 ---
 

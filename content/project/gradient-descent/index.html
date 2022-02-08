@@ -1,0 +1,78 @@
+---
+aliases: [sgd-shiny]
+title: Stochastic gradient descent (SGD) in R
+summary: Visualizing how SGD works with Shiny...skiing down derivative valley
+date: 2022-02-08
+output:
+    blogdown::htmlpage
+image:
+  caption: 'Linear regression SGD'
+  focal_point: Smart
+  max_width: 100%
+links:
+- icon: github
+  icon_pack: fab
+  name: GitHub Org
+  url: https://github.com/mgdesaix/gradientDescent
+- icon: flask
+  icon_pack: fas
+  name: Shiny App
+  url: https://mgdesaix.shinyapps.io/gradientdescent/
+categories:
+- Shiny
+- machine learning
+tags:
+bibliography: references.bib
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p><img src="shinyexample.jpg" /></p>
+<p>Recently I’ve been learning about optimization with gradient descent, and more specifically, stochastic gradient descent (SGD). I found it to be a little confusing at first so I created a Shiny app to help myself figure it out.</p>
+<p>Anyway, the basic gist of gradient descent is that you can take advantage of the property that the <em>sum of derivatives is equal to the derivative of a sum</em> and thereby avoid doing computationally intensive matrix multiplication with large data sets. For example, if we have a linear model of:</p>
+<p><span class="math display">\[
+Y = Xw
+\]</span></p>
+<p>where <span class="math inline">\(Y\)</span> is a vector of observations, i.e. <span class="math inline">\(Y \in \mathbb{R}^{N}\)</span>, <span class="math inline">\(X\)</span> is matrix of input data s.t. <span class="math inline">\(X \in \mathbb{R}^{N\text{x}D}\)</span>, and <span class="math inline">\(w\)</span> is a vector of parameters, <span class="math inline">\(w \in \mathbb{R}^{D}\)</span>. <span class="math inline">\(N\)</span> being the number of observations and <span class="math inline">\(D\)</span> the number of parameters.</p>
+<p>To solve the linear model, we could use the least-squares loss function to find <span class="math inline">\(w\)</span> to minimize the following:</p>
+<p><span class="math display">\[
+L(e) = ||e||^2 \\
+e(w) = Y - Xw
+\]</span></p>
+<p>where <span class="math inline">\(||e||\)</span> represents the Euclidean norm of the error function <span class="math inline">\(e\)</span>.</p>
+<p>Or to think of it in non-matrix terms, find <span class="math inline">\(w\)</span> to minimize</p>
+<p><span class="math display">\[
+\sum_{n=1}^N (y_n - f(x_n;w))^2
+\]</span></p>
+<p>where <span class="math inline">\(y_n\)</span> is the <span class="math inline">\(n^{th}\)</span> observation <span class="math inline">\(y\)</span> and <span class="math inline">\(f()\)</span> is a function applied to the <span class="math inline">\(n^{th}\)</span> observation of <span class="math inline">\(x\)</span> using the parameters <span class="math inline">\(w\)</span> s.t.</p>
+<p><span class="math display">\[
+f(x_n;w) = w_0 + w_1x_1 + ... + w_Dx_D
+\]</span></p>
+<p>for each observation.</p>
+<p>Using the chain rule and desired derivatives (not going through the derivation here, but one great resource for the underlying math is <span class="citation"><a href="#ref-Deisenroth2020" role="doc-biblioref">Deisenroth, Faisal, and Ong</a> (<a href="#ref-Deisenroth2020" role="doc-biblioref">2020</a>)</span>), we can solve for the derivative <span class="math inline">\(\frac{dL}{dw}\)</span>,</p>
+<p><span class="math display">\[
+\frac{dL}{dw} = \frac{dL}{de}\frac{de}{dw} \\
+= -2X^T(Y-Xw)
+\]</span></p>
+<p>Setting the derivative equal to zero and solving for <span class="math inline">\(w\)</span> produces</p>
+<p><span class="math display">\[
+w = (X^TX)^{-1}X^TY
+\]</span></p>
+<p>Which makes apparent that if these are large matrices the matrix computation can become expensive. Now we get to <strong>stochastic gradient descent</strong>.</p>
+<p>Instead of using all the observations, we can update the vector of parameters <span class="math inline">\(w\)</span> incrementally using batches of samples, or even just one sample at a time. Here I’ll show updating by one sample at a time over each iteration <span class="math inline">\(i\)</span>:</p>
+<p><span class="math display">\[
+w_{i+1} = w_i + \gamma_i(\nabla L(w_i)) \\
+w_{i+1} = w_i + \gamma_i(y_n - f(x_n,w))x_n
+\]</span></p>
+<p>using a step-size parameter <span class="math inline">\(\gamma_i\)</span>. The step-size is chosen to not be too small that convergence takes too long, but not too large to <em>jump</em> over the optimal parameter values. As the error rate decreases, <span class="math inline">\(w_i\)</span> converges on the true value of <span class="math inline">\(w\)</span>. That’s the beauty of gradient descent. And also the crux point of confusion for me and why I made this Shiny app!</p>
+<p>In the app, I code a simple implementation of SGD for a linear regression model. The parameters specifying the observed data can be manipulated, and so can the learning rate and number of epochs for SGD. After running the model, plots output the root mean square error, and the weights for the coefficients of the model (intercept and slope). It also plots the predicted versus observed y values for a given epoch, so the crappy performance at earlier epochs can be observed.</p>
+<p>See the links at the top of the page for accessing code and the app.</p>
+<div id="references" class="section level3 unnumbered">
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Deisenroth2020" class="csl-entry">
+Deisenroth, Marc Peter, A. Aldo Faisal, and Chen Soon Ong. 2020. <em>Mathematics for Machine Learning</em>. 1st ed. Cambridge University Press. <a href="https://mml-book.com/">https://mml-book.com/</a>.
+</div>
+</div>
+</div>
