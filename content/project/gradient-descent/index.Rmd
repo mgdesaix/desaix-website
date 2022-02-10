@@ -86,6 +86,6 @@ using a step-size parameter $\gamma_i$. The step-size is chosen to not be too sm
 
 In the app, I code a simple implementation of SGD for a linear regression model. The parameters specifying the observed data can be manipulated, and so can the learning rate and number of epochs for SGD. After running the model, plots output the root mean square error, and the weights for the coefficients of the model (intercept and slope). It also plots the predicted versus observed y values for a given epoch, so the crappy performance at earlier epochs can be observed.
 
-See the links at the top of the page for accessing code and the app.
+See the links at the top of the page for accessing code and the app. A great video to get some intuition of the math behind gradient descent is from [3Blue1Brown](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3).
 
 ### References
