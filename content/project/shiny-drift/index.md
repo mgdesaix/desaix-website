@@ -17,13 +17,8 @@ links:
   url: https://mgdesaix.shinyapps.io/geneticdrift/
 categories:
 - Shiny
-- teaching
-- population genetics
+- Population genetics
 tags:
-- Rmarkdown
-- R
-- Shiny
-- teaching
 ---
 
 ![Genetic drift](featured.jpg)
