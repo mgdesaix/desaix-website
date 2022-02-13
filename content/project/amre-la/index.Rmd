@@ -1,0 +1,26 @@
+---
+aliases: [la]
+title: Local adaptation across the annual cycle
+summary: How do migratory species adapt to wintering grounds?
+date: 2022-01-16
+output:
+    blogdown::htmlpage
+image:
+  caption: 'American Redstarts in Trinidad'
+  focal_point: Smart
+  max_width: 100%
+categories:
+- Genomics
+tags:
+bibliography: references.bib
+---
+
+Natural selection acting across heterogeneous environments can result in populations with locally optimal phenotypes [@Kawecki2004]. Local adaptation occurs when individuals in a population have phenotypes that result in higher fitness in their local environment compared to individuals with different phenotypes from other environments [@Kawecki2004]. Traditional population genetic theory presupposes that gene flow curtails local adaptation if selection is not strong enough for advantageous alleles to persist in a population [@Wright1931]. Advancements in genomics have provided empirical evidence to show that the relationship between gene flow and local adaptation is more complex, with the potential for local adaptation to not only be sustained with high gene flow but in some cases promoted by gene flow [@Comeault2015; @Tigano2016; @Hamala2019]. However, despite genomic advancements, identifying local adaptation remains a difficult endeavor. 
+
+Complicating the study of local adaptation in migratory organisms, is that organisms vary in the degree to which their populations remain cohesive throughout the annual cycle (migratory connectivity). Different migratory connectivity patterns may have distinct effects on local adaptation to different stages of the annual cycle depending on the range of selective pressures individuals experience. If individuals from a geographically small breeding population spread out during the annual cycle (weak migratory connectivity) and experience a wide range of environmental conditions, then some individuals may be niche trackers and others niche switchers while the population is a mix of the two. In this case, assortative mating could have a strong role in whether individuals are able to locally adapt to different stages of the annual cycle. In the case of strong migratory connectivity, where individuals remain tightly linked throughout the annual cycle, the individuals and population, as a whole, may have more similar niche tracking/switching tendencies. 
+
+In migratory birds, studies have highlighted patterns of putative adaptive variation across the breeding range [@Bay2018; @Ruegg2018; @DeSaix2019], but these species spend a larger proportion of the annual cycle on the nonbreeding grounds. While hypotheses regarding the mechanisms for local adaptation across the annual cycle have been proposed over the past 20 years [@Webster2005], the question of the degree to which local adaptation occurs outside the breeding range has remained largely intractable due to technological and analytical challenges. Theoretical models suggest that strong migratory connectivity could facilitate local adaptation to the wintering grounds by reducing gene flow among birds from different wintering populations [@Webster2005]. In addition to strong migratory connectivity, local adaptation to the wintering grounds would require similar directional selection on traits across the annual cycle. 
+
+My current work takes a landscape genomics approach to detecting signatures of local adaptation on the nonbreeding grounds of the American Redstart (*Setophaga ruticilla*). Stay tuned for updates.
+
+### References
