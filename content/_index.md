@@ -1,6 +1,6 @@
 ---
 title: "Matt DeSaix"
-subtitle: "Population genomicist, data scientist & climber"
+subtitle: "Population genomicist, data scientist & alpinist"
 description: "My work spans many genres. As a PhD student, my dissertation is focused on using genomics to understand the effects of climate change on (mal)adaptation of populations. I use a mix of statistical and machine learning methods, bioinformatics, and population genetic theory. I also combine empirical whole-genome sequence data with genetic simulations. Outside of my dissertation-specific work, I provide bioinformatics and data analysis support to other researchers and develop data analysis and visualization tools in R. I love working with large, messy data sets, and helping others find creative programming solutions to their data problems. When I'm not behind a computer, you can find me in the mountains of Colorado climbing, mountaineering, skiing, and birding."
 images:
   - img/home.jpg
