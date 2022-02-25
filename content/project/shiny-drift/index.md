@@ -27,4 +27,4 @@ Interactive visualizations are a great way to better understand scientific conce
 
 Here, I provide an example of a Shiny app I created to model genetic drift. [Genetic drift](https://en.wikipedia.org/wiki/Genetic_drift) is a stochastic process by which population allele frequencies fluctuate over time due to random mating. Eventually, an allele will become fixed, at which point there is no changes in the frequency unless a mutation is induced. In this simulation, I allow users to change the effective population size for 3 different populations to show the random fluctuation, and how the probability of fixation increases with smaller effective population.
 
-See the links at the top of the page for accessing code and the app.
+See the links at the top of the page for accessing the code on github and the app itself.
