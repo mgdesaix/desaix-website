@@ -20,7 +20,7 @@ links:
   url: https://mgdesaix.shinyapps.io/gradientdescent/
 categories:
 - Shiny
-- machine learning
+- Machine learning
 tags:
 bibliography: references.bib
 ---
@@ -67,7 +67,7 @@ w_{i+1} = w_i + \gamma_i(y_n - f(x_n,w))x_n
 \]</span></p>
 <p>using a step-size parameter <span class="math inline">\(\gamma_i\)</span>. The step-size is chosen to not be too small that convergence takes too long, but not too large to <em>jump</em> over the optimal parameter values. As the error rate decreases, <span class="math inline">\(w_i\)</span> converges on the true value of <span class="math inline">\(w\)</span>. That’s the beauty of gradient descent. And also the crux point of confusion for me and why I made this Shiny app!</p>
 <p>In the app, I code a simple implementation of SGD for a linear regression model. The parameters specifying the observed data can be manipulated, and so can the learning rate and number of epochs for SGD. After running the model, plots output the root mean square error, and the weights for the coefficients of the model (intercept and slope). It also plots the predicted versus observed y values for a given epoch, so the crappy performance at earlier epochs can be observed.</p>
-<p>See the links at the top of the page for accessing code and the app.</p>
+<p>See the links at the top of the page for accessing code and the app. A great video to get some intuition of the math behind gradient descent is from <a href="https://www.youtube.com/watch?v=IHZwWFHWa-w&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=3">3Blue1Brown</a>.</p>
 <div id="references" class="section level3 unnumbered">
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
