@@ -14,6 +14,7 @@ links:
 categories:
 - Machine learning
 - Population genetics
+- Genomics
 tags:
 ---
 

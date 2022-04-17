@@ -20,7 +20,7 @@ links:
   url: https://mgdesaix.shinyapps.io/gradientdescent/
 categories:
 - Shiny
-- machine learning
+- Machine learning
 tags:
 bibliography: references.bib
 ---
